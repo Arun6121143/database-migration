@@ -1,0 +1,4 @@
+ALTER TABLE book_tbl DROP COLUMN bookName;
+ALTER TABLE book_tbl DROP COLUMN authorName;
+
+ALTER TABLE book_tbl ADD COLUMN BookIsbn VARCHAR(20) NOT NULL;

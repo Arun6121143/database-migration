@@ -1,0 +1,1 @@
+ALTER TABLE data_tbl ADD COLUMN phone VARCHAR(20) AFTER data_type ;

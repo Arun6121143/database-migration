@@ -1,0 +1,1 @@
+ALTER TABLE book_csv_tbl ADD COLUMN `Book-Author` VARCHAR(100) AFTER `Book-Title`;
